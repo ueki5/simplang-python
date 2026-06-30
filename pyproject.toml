@@ -1,5 +1,5 @@
 [project]
-name = "minclang-python"
+name = "simplang-python"
 version = "0.1.0"
 description = "Minimal compiler for arithmetic expressions"
 readme = "README.md"

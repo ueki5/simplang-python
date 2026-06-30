@@ -2,8 +2,8 @@ import subprocess
 import tempfile
 from pathlib import Path
 
-from minclang.compiler import tokenize, parse, compile_expr
-from minclang.codegen import generate_asm
+from simplang.compiler import tokenize, parse, compile_expr
+from simplang.codegen import generate_asm
 
 
 def compile_and_run(source: str) -> str:

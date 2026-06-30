@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from minclang.compiler import Instr, Push, IAdd, ISub, IMul, IDiv, INeg
+from simplang.compiler import Instr, Push, IAdd, ISub, IMul, IDiv, INeg
 
 
 def generate_asm(instrs: list[Instr]) -> str:

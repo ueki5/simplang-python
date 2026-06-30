@@ -3,13 +3,13 @@ import subprocess
 import tempfile
 from pathlib import Path
 
-from minclang.compiler import tokenize, parse, compile_expr
-from minclang.codegen import generate_asm
+from simplang.compiler import tokenize, parse, compile_expr
+from simplang.codegen import generate_asm
 
 
 def main() -> None:
     ap = argparse.ArgumentParser(
-        prog="minclang",
+        prog="simplang",
         description="Compile an arithmetic expression to a native binary",
     )
     ap.add_argument("file", help="source file to compile")
